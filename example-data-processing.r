@@ -12,6 +12,8 @@ input_data <- read.csv('./DATA_NAR/Canada/Bottomup_Lakeweb.csv', stringsAsFactor
 
 areas <- sort(unique(input_data$Lake_ID))
 
+#### new step
+
 #### Step 3: If data has to be aggregated set this variable to TRUE
 aggregate <- FALSE
 if(aggregate){
